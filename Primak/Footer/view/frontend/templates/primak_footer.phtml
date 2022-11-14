@@ -1,0 +1,20 @@
+<div class="primak" data-bind="scope: 'section'">
+    <div data-bind="if: productName()">
+        <ul data-bind="foreach: productName()">
+            <li data-bind="text: $data"></li>
+        </ul>
+    </div>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "section": {
+                        "component": "Primak_Footer/js/section"
+                    }
+                }
+            }
+        }
+    }
+</script>

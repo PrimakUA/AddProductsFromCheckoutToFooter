@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Primak_Footer::css/primak.css"/>
+    </head>
+    <body>
+        <referenceContainer name="footer">
+            <block class="Magento\Framework\View\Element\Template"  name="primak.footer" template="Primak_Footer::primak_footer.phtml" before="privacy-policy-link">
+            </block>
+        </referenceContainer>
+    </body>
+</page>
